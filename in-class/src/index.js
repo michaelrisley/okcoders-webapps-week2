@@ -51,6 +51,7 @@ class UserHabits extends Component {
 		        	</label>
 	        		<input type="submit" value="Submit" />
 	      		</form>
+	      		<CurrentHabits habits={this.state.habits} />
       		</div>
     		)
   		}
